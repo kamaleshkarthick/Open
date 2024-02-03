@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.main {
+    background-color: #ebeff9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+
+.Left h1 {
+
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.Left {
+
+    background: #605BFF;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-icon {
+    align-self: flex-start;
+    margin: 4vh 0px 0px 3vw;
+
+}
+
+.social-icon {
+    margin-bottom: 3vh;
+}
+
+.form {
+    padding: 3vh 2vw;
+}
+
+.sign-btn {
+    display: flex;
+    width: 25vw;
+
+}
+
+.btn {
+
+    background-color: #ffffff;
+    border: 2px solid #e8e8e8;
+    border-radius: 12px;
+    color: #141c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px 5px;
+    width: 100%;
+    padding: 8px;
+}
+
+@media screen and (max-width:768px) {
+
+
+    .main {
+        background-color: #ebeff9;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .Left {
+        /* width: calc( 50% - 40px) ; */
+        background: #605BFF;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .Left img {
+        margin: 10px;
+        align-self: center;
+    }
+
+    .logo-icon {
+        width: 30px;
+
+    }
+
+    .Left h1 {
+        font-size: 1.5rem;
+        margin-left: 12px;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .Right {
+        width: 100vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sign-btn {
+        width: 50vw;
+    }
+}
